@@ -887,8 +887,10 @@ as opaque by clients of the API.
 
 ## Plural Nouns
 Resources and Sub-Resources MUST be referenced as plural nouns.  Resources that
-will always be singular MUST be plural nouns.  Plural nouns MUST end in either
-the `-s` or `-es` suffix.
+will always be singular MUST be plural nouns.  Plural nouns MUST be in their 
+respective plural form.  Although this typically means they will end in either
+the `-s` or `-es` suffix, however some nouns have other suffixes.  Please refer to
+[English Plurals](https://en.wikipedia.org/wiki/English_plurals)
 
 ### Examples
 ```javascript 
